@@ -1,0 +1,21 @@
+development:
+    adapter: postgresql
+    encoding: unicode
+    database: f8
+    host: localhost
+    username: postgres
+    password: postgres
+staging:
+    adapter: postgresql
+    encoding: unicode
+    database: delievery
+    host: localhost
+    username: postgres
+    password: postgres
+production:
+    adapter: postgresql
+    encoding: unicode
+    database: foodfast
+    host: localhost
+    username: postgres
+    password: postgres
